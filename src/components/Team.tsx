@@ -17,7 +17,7 @@ export function Team() {
     {
       name: "Fatoumata Danso",
       role: "Brand Strategist",
-      image: "images/danso-kg.jpg",
+      image: "images/chichi-kg.jpg",
       social: {
         linkedin: "#",
         twitter: "#",
@@ -27,7 +27,7 @@ export function Team() {
     {
       name: "Abdul Sesay",
       role: "Lead Designer",
-      image: "images/danso-kg.jpg",
+      image: "images/fatou.jpg",
       social: {
         linkedin: "#",
         twitter: "#",

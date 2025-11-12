@@ -4,8 +4,90 @@ import { Input } from "./ui/input";
 import { Textarea } from "./ui/textarea";
 import { Button } from "./ui/button";
 import { Label } from "./ui/label";
+import { useState } from "react";
 
 export function Contact() {
+  const [formData, setFormData] = useState({
+    firstName: "",
+    lastName: "",
+    email: "",
+    phone: "",
+    subject: "",
+    message: "",
+  });
+
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<"idle" | "success" | "error">("idle");
+  const [statusMessage, setStatusMessage] = useState("");
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const { id, value } = e.target;
+    setFormData((prev) => ({
+      ...prev,
+      [id]: value,
+    }));
+  };
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+    setSubmitStatus("idle");
+
+    // Validation
+    if (
+      !formData.firstName ||
+      !formData.lastName ||
+      !formData.email ||
+      !formData.subject ||
+      !formData.message
+    ) {
+      setSubmitStatus("error");
+      setStatusMessage("Please fill in all required fields.");
+      setIsSubmitting(false);
+      return;
+    }
+
+    try {
+      // Send email using Formspree (free service, no setup required)
+      const response = await fetch("https://formspree.io/f/mblqlrnq", {
+        method: "POST",
+        headers: {
+          "Accept": "application/json",
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          firstName: formData.firstName,
+          lastName: formData.lastName,
+          email: formData.email,
+          phone: formData.phone || "Not provided",
+          subject: formData.subject,
+          message: formData.message,
+        }),
+      });
+
+      if (response.ok) {
+        setSubmitStatus("success");
+        setStatusMessage("Thank you! Your message has been sent successfully. We'll get back to you soon.");
+        setFormData({
+          firstName: "",
+          lastName: "",
+          email: "",
+          phone: "",
+          subject: "",
+          message: "",
+        });
+      } else {
+        throw new Error("Failed to submit form");
+      }
+    } catch (error) {
+      console.error("Failed to send message:", error);
+      setSubmitStatus("error");
+      setStatusMessage("Failed to send your message. Please try again or contact us directly.");
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
   return (
     <section id="contact" className="py-20 px-4 bg-white">
       <div className="container mx-auto">
@@ -107,33 +189,42 @@ export function Contact() {
           {/* Contact Form */}
           <Card className="p-8 border-0 shadow-xl">
             <h3 className="text-2xl text-gray-900 mb-6">Send Us a Message</h3>
-            <form className="space-y-6">
+            <form className="space-y-6" onSubmit={handleSubmit}>
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="space-y-2">
-                  <Label htmlFor="firstName">First Name</Label>
+                  <Label htmlFor="firstName">First Name *</Label>
                   <Input
                     id="firstName"
                     placeholder="Mama"
+                    value={formData.firstName}
+                    onChange={handleChange}
                     className="border-gray-300 focus:border-[#F26241] focus:ring-[#F26241]"
+                    required
                   />
                 </div>
                 <div className="space-y-2">
-                  <Label htmlFor="lastName">Last Name</Label>
+                  <Label htmlFor="lastName">Last Name *</Label>
                   <Input
                     id="lastName"
                     placeholder="Marong"
+                    value={formData.lastName}
+                    onChange={handleChange}
                     className="border-gray-300 focus:border-[#F26241] focus:ring-[#F26241]"
+                    required
                   />
                 </div>
               </div>
 
               <div className="space-y-2">
-                <Label htmlFor="email">Email</Label>
+                <Label htmlFor="email">Email *</Label>
                 <Input
                   id="email"
                   type="email"
                   placeholder="mama@gmail.com"
+                  value={formData.email}
+                  onChange={handleChange}
                   className="border-gray-300 focus:border-[#F26241] focus:ring-[#F26241]"
+                  required
                 />
               </div>
 
@@ -143,31 +234,55 @@ export function Contact() {
                   id="phone"
                   type="tel"
                   placeholder="+220 3451445"
+                  value={formData.phone}
+                  onChange={handleChange}
                   className="border-gray-300 focus:border-[#F26241] focus:ring-[#F26241]"
                 />
               </div>
 
               <div className="space-y-2">
-                <Label htmlFor="subject">Subject</Label>
+                <Label htmlFor="subject">Subject *</Label>
                 <Input
                   id="subject"
                   placeholder="Project Inquiry"
+                  value={formData.subject}
+                  onChange={handleChange}
                   className="border-gray-300 focus:border-[#F26241] focus:ring-[#F26241]"
+                  required
                 />
               </div>
 
               <div className="space-y-2">
-                <Label htmlFor="message">Message</Label>
+                <Label htmlFor="message">Message *</Label>
                 <Textarea
                   id="message"
                   placeholder="Tell us about your project..."
                   rows={5}
+                  value={formData.message}
+                  onChange={handleChange}
                   className="border-gray-300 focus:border-[#F26241] focus:ring-[#F26241]"
+                  required
                 />
               </div>
 
-              <Button className="w-full bg-gradient-to-r from-[#F26241] to-[#E78723] text-white hover:shadow-lg transition-all py-6">
-                Send Message
+              {/* Status Messages */}
+              {submitStatus === "success" && (
+                <div className="p-4 bg-green-50 border border-green-200 rounded-lg">
+                  <p className="text-green-800">{statusMessage}</p>
+                </div>
+              )}
+              {submitStatus === "error" && (
+                <div className="p-4 bg-red-50 border border-red-200 rounded-lg">
+                  <p className="text-red-800">{statusMessage}</p>
+                </div>
+              )}
+
+              <Button
+                type="submit"
+                disabled={isSubmitting}
+                className="w-full bg-gradient-to-r from-[#F26241] to-[#E78723] text-white hover:shadow-lg transition-all py-6 disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                {isSubmitting ? "Sending..." : "Send Message"}
                 <Send className="ml-2" size={20} />
               </Button>
             </form>
