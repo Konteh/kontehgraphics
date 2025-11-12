@@ -15,7 +15,7 @@ export function Team() {
       },
     },
     {
-      name: "Mariama Kamara",
+      name: "Ebrima Konteh",
       role: "Brand Strategist",
       image: "images/danso-kg.jpg",
       social: {
