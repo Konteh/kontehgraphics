@@ -7,7 +7,7 @@ export function Team() {
     {
       name: "Ebrima Konteh",
       role: "Creative Director & Founder",
-      image: "images/kontehprofile.jpg",
+      image: "images/danso-kg.jpg",
       social: {
         linkedin: "#",
         twitter: "#",
@@ -27,7 +27,7 @@ export function Team() {
     {
       name: "Abdul Sesay",
       role: "Lead Designer",
-      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdHxlbnwxfHx8fDE3NjI4NTA5MjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      image: "images/danso-kg.jpg",
       social: {
         linkedin: "#",
         twitter: "#",
@@ -37,7 +37,7 @@ export function Team() {
     {
       name: "Fatmata Koroma",
       role: "Digital Marketing Manager",
-      image: "https://images.unsplash.com/photo-1627161683077-e34782c24d81?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGhlYWRzaG90fGVufDF8fHx8MTc2MjkzMDExOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      image: "images/danso-kg.jpg",
       social: {
         linkedin: "#",
         twitter: "#",
@@ -47,7 +47,7 @@ export function Team() {
     {
       name: "Mohamed Jalloh",
       role: "Photography Director",
-      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdHxlbnwxfHx8fDE3NjI4NTA5MjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      image: "images/danso-kg.jpg",
       social: {
         linkedin: "#",
         twitter: "#",
@@ -57,7 +57,7 @@ export function Team() {
     {
       name: "Aminata Bangura",
       role: "Video Production Lead",
-      image: "https://images.unsplash.com/photo-1627161683077-e34782c24d81?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGhlYWRzaG90fGVufDF8fHx8MTc2MjkzMDExOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      image: "images/danso-kg.jpg",
       social: {
         linkedin: "#",
         twitter: "#",
@@ -67,7 +67,7 @@ export function Team() {
     {
       name: "Sorie Turay",
       role: "Senior Web Developer",
-      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdHxlbnwxfHx8fDE3NjI4NTA5MjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      image: "images/danso-kg.jpg",
       social: {
         linkedin: "#",
         twitter: "#",
@@ -77,7 +77,7 @@ export function Team() {
     {
       name: "Isatu Mansaray",
       role: "Graphic Design Specialist",
-      image: "https://images.unsplash.com/photo-1627161683077-e34782c24d81?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGhlYWRzaG90fGVufDF8fHx8MTc2MjkzMDExOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      image: "images/danso-kg.jpg",
       social: {
         linkedin: "#",
         twitter: "#",
