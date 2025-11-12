@@ -19,8 +19,8 @@ export function Portfolio() {
     {
       title: "Product Photography Campaign",
       category: "Photography",
-      image: "https://images.unsplash.com/photo-1691559290115-dd3d7f546e08?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwaG90b2dyYXBoeSUyMHdvcmt8ZW58MXx8fHwxNzYyOTM3MTY1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      link: "#",
+      image: "images/wally.jpg",
+      link: "https://www.instagram.com/kontehgraphics?igsh=Z2JpMnExempyYzdn",
       icon: "instagram",
     },
     {
@@ -45,17 +45,17 @@ export function Portfolio() {
       icon: "external",
     },
     {
-      title: "Brand Guidelines & Assets",
+      title: "Branding for LSA WEEK 5.0",
       category: "Branding",
-      image: "https://images.unsplash.com/photo-1548094990-c16ca90f1f0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxicmFuZGluZyUyMGRlc2lnbnxlbnwxfHx8fDE3NjI5MzI2OTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      image: "images/lsabrand.png",
       link: "#",
       icon: "instagram",
     },
     {
       title: "Fashion Photography Series",
       category: "Photography",
-      image: "https://images.unsplash.com/photo-1691559290115-dd3d7f546e08?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwaG90b2dyYXBoeSUyMHdvcmt8ZW58MXx8fHwxNzYyOTM3MTY1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      link: "#",
+      image: "images/room.jpg",
+      link: "https://www.instagram.com/kontehgraphics?igsh=Z2JpMnExempyYzdn",
       icon: "instagram",
     },
     {
@@ -89,8 +89,8 @@ export function Portfolio() {
     {
       title: "Event Photography",
       category: "Photography",
-      image: "https://images.unsplash.com/photo-1691559290115-dd3d7f546e08?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwaG90b2dyYXBoeSUyMHdvcmt8ZW58MXx8fHwxNzYyOTM3MTY1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      link: "#",
+      image: "images/tendaba.jpg",
+      link: "https://www.instagram.com/kontehgraphics?igsh=Z2JpMnExempyYzdn",
       icon: "instagram",
     },
   ];

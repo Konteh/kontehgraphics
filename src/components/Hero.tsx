@@ -16,12 +16,16 @@ export function Hero() {
       alt: "Website Design",
     },
     {
-      src: "/images/danso-kg.jpg",
+      src: "/images/mof.jpeg",
       alt: "Graphic Design Portfolio",
     },
     {
-     src: "/images/chichi-kg.jpg",
+     src: "/images/awa.jpg",
       alt: "Marketing Campaign",
+    },
+    {
+     src: "/images/abi.jpg",
+      alt: "photography",
     },
   ];
 
@@ -111,11 +115,28 @@ export function Hero() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button className="bg-gradient-to-r from-[#F26241] to-[#E78723] text-white px-8 py-6">
+              <Button 
+                onClick={() => {
+                  const contactSection = document.getElementById('contact');
+                  if (contactSection) {
+                    contactSection.scrollIntoView({ behavior: 'smooth' });
+                  }
+                }}
+                className="bg-gradient-to-r from-[#F26241] to-[#E78723] text-white px-8 py-6 cursor-pointer"
+              >
                 Start Your Project
                 <ArrowRight className="ml-2" size={20} />
               </Button>
-              <Button variant="outline" className="px-8 py-6 border-gray-300">
+              <Button 
+                onClick={() => {
+                  const portfolioSection = document.getElementById('portfolio');
+                  if (portfolioSection) {
+                    portfolioSection.scrollIntoView({ behavior: 'smooth' });
+                  }
+                }}
+                variant="outline" 
+                className="px-8 py-6 border-gray-300 cursor-pointer"
+              >
                 View Our Work
               </Button>
             </div>
