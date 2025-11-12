@@ -24,7 +24,7 @@ export function Hero() {
       alt: "Marketing Campaign",
     },
     {
-     src: "/images/abi.jpg",
+     src: "/images/black-lady-with-a-pc-coding.jpg",
       alt: "photography",
     },
   ];
