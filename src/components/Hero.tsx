@@ -20,11 +20,11 @@ export function Hero() {
       alt: "Graphic Design Portfolio",
     },
     {
-     src: "/images/awa.jpg",
+     src: "https://images.pexels.com/photos/34708668/pexels-photo-34708668.jpeg",
       alt: "Marketing Campaign",
     },
     {
-     src: "/images/webcontent/black-lady-with-a-pc-coding.jpg",
+     src: "https://images.pexels.com/photos/34708561/pexels-photo-34708561.jpeg",
       alt: "photography",
     },
   ];

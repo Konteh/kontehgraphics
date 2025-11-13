@@ -15,7 +15,7 @@ export function Services() {
       icon: <TrendingUp className="w-8 h-8" />,
       title: "Digital Marketing",
       description: "Drive growth with data-driven marketing strategies that convert and engage your target audience.",
-      image: "images/webcontent/kawsu.jpg",
+      image: "https://images.pexels.com/photos/34708698/pexels-photo-34708698.jpeg",
       color: "from-blue-500 to-cyan-500",
     },
     {
