@@ -19,7 +19,7 @@ export function Portfolio() {
     {
       title: "Product Photography Campaign",
       category: "Photography",
-      image: "images/webcontent/wally.jpgf",
+      image: "images/webcontent/wally.jpg",
       link: "https://www.instagram.com/kontehgraphics?igsh=Z2JpMnExempyYzdn",
       icon: "instagram",
     },
@@ -54,7 +54,7 @@ export function Portfolio() {
     {
       title: "Fashion Photography Series",
       category: "Photography",
-      image: "images/room.jpg",
+      image: "https://images.pexels.com/photos/34708696/pexels-photo-34708696.jpeg",
       link: "https://www.instagram.com/kontehgraphics?igsh=Z2JpMnExempyYzdn",
       icon: "instagram",
     },
