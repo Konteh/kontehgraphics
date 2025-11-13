@@ -5,11 +5,11 @@ import { Avatar, AvatarFallback } from "./ui/avatar";
 export function Testimonials() {
   const testimonials = [
     {
-      name: "Sarah Johnson",
-      role: "CEO, TechCorp",
+      name: "Modou Jallow",
+      role: "CEO, Modem Pay",
       content: "Konteh Graphics transformed our brand identity completely. Their creative vision and attention to detail exceeded our expectations. The team is professional, responsive, and truly understands what it takes to make a brand stand out.",
       rating: 5,
-      initials: "SJ",
+      initials: "MJ",
       color: "bg-gradient-to-br from-[#F26241] to-[#E78723]",
     },
     {
@@ -21,11 +21,11 @@ export function Testimonials() {
       color: "bg-gradient-to-br from-[#E78723] to-[#F26241]",
     },
     {
-      name: "Emily Rodriguez",
-      role: "Founder, CreativeMinds",
+      name: "Awa Dacosta",
+      role: "Director, Fantanka",
       content: "The photography and videography services are top-notch! Konteh Graphics captured our products beautifully and helped us create content that truly resonates with our audience. Highly recommend!",
       rating: 5,
-      initials: "ER",
+      initials: "AD",
       color: "bg-gradient-to-br from-[#F26241] to-[#E78723]",
     },
   ];

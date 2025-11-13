@@ -19,7 +19,7 @@ export function Portfolio() {
     {
       title: "Product Photography Campaign",
       category: "Photography",
-      image: "images/wally.jpg",
+      image: "images/webcontent/wally.jpg",
       link: "https://www.instagram.com/kontehgraphics?igsh=Z2JpMnExempyYzdn",
       icon: "instagram",
     },

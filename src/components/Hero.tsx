@@ -12,11 +12,11 @@ export function Hero() {
       alt: "Branding Design",
     },
     {
-      src: "/images/kontehh.png",
+      src: "/images/webcontent/kontehh.jpg",
       alt: "Website Design",
     },
     {
-      src: "/images/mof.jpeg",
+      src: "/images/webcontent/danso-kg.jpg",
       alt: "Graphic Design Portfolio",
     },
     {
@@ -24,7 +24,7 @@ export function Hero() {
       alt: "Marketing Campaign",
     },
     {
-     src: "/images/black-lady-with-a-pc-coding.jpg",
+     src: "/images/webcontent/black-lady-with-a-pc-coding.jpg",
       alt: "photography",
     },
   ];
