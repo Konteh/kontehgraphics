@@ -9,15 +9,15 @@ export function Team() {
       role: "Creative Director & Founder",
       image: "images/danso-kg.jpg",
       social: {
-        linkedin: "#",
-        twitter: "#",
-        instagram: "#",
+        linkedin: "https://www.linkedin.com/in/ebrima-konteh-89b47b1aa/",
+        twitter: "https://x.com/konteh_gm?t=qnbhXB72wVgmIrb_etEZRw&s=09",
+        instagram: "https://www.instagram.com/konteh.gm?igsh=bGo0aXQya3Ficmh0",
       },
     },
     {
-      name: "Fatoumata Danso",
-      role: "Brand Strategist",
-      image: "images/chichi-kg.jpg",
+      name: "Mamadi Fatty",
+      role: "OPerations and lead Designer",
+      image: "images/webcontent/madiba_team.jpg",
       social: {
         linkedin: "#",
         twitter: "#",
@@ -25,9 +25,9 @@ export function Team() {
       },
     },
     {
-      name: "Abdul Sesay",
+      name: "Mama Marong",
       role: "Lead Designer",
-      image: "images/fatou.jpg",
+      image: "images/webcontent/mama_team.jpg",
       social: {
         linkedin: "#",
         twitter: "#",
@@ -35,9 +35,9 @@ export function Team() {
       },
     },
     {
-      name: "Fatmata Koroma",
+      name: "Alieu Camara",
       role: "Digital Marketing Manager",
-      image: "images/danso-kg.jpg",
+      image: "images/webcontent/danso-kg.jpg",
       social: {
         linkedin: "#",
         twitter: "#",
@@ -45,9 +45,9 @@ export function Team() {
       },
     },
     {
-      name: "Mohamed Jalloh",
+      name: "Isha Bojang",
       role: "Photography Director",
-      image: "images/danso-kg.jpg",
+      image: "images/webcontent/isha_team.jpg",
       social: {
         linkedin: "#",
         twitter: "#",
@@ -55,9 +55,9 @@ export function Team() {
       },
     },
     {
-      name: "Aminata Bangura",
+      name: "Awa Kujabi",
       role: "Video Production Lead",
-      image: "images/danso-kg.jpg",
+      image: "images/webcontent/awa_team.jpg",
       social: {
         linkedin: "#",
         twitter: "#",

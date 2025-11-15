@@ -29,6 +29,9 @@ export function Hero() {
     },
   ];
 
+  // External URL for Brand Identity — replace with the real external link you want to use
+  const brandIdentityUrl = "images/webcontent/brand_identity_kg.pdf";
+
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveIndex((prevIndex) => (prevIndex + 1) % portfolioImages.length);
@@ -115,16 +118,14 @@ export function Hero() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button 
+              <Button
                 onClick={() => {
-                  const contactSection = document.getElementById('contact');
-                  if (contactSection) {
-                    contactSection.scrollIntoView({ behavior: 'smooth' });
-                  }
+                  // Open the brand identity page in a new tab. Change `brandIdentityUrl` above as needed.
+                  window.open(brandIdentityUrl, '_blank', 'noopener,noreferrer');
                 }}
                 className="bg-gradient-to-r from-[#F26241] to-[#E78723] text-white px-8 py-6 cursor-pointer"
               >
-                Start Your Project
+                Our Brand Guidelines
                 <ArrowRight className="ml-2" size={20} />
               </Button>
               <Button 
