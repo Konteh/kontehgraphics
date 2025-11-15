@@ -119,18 +119,24 @@ export function Team() {
                 <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex space-x-3 opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-4 group-hover:translate-y-0">
                   <a
                     href={member.social.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="p-2 bg-white rounded-lg hover:bg-gradient-to-r hover:from-[#F26241] hover:to-[#E78723] hover:text-white transition-all"
                   >
                     <Linkedin size={18} />
                   </a>
                   <a
                     href={member.social.twitter}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="p-2 bg-white rounded-lg hover:bg-gradient-to-r hover:from-[#F26241] hover:to-[#E78723] hover:text-white transition-all"
                   >
                     <Twitter size={18} />
                   </a>
                   <a
                     href={member.social.instagram}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="p-2 bg-white rounded-lg hover:bg-gradient-to-r hover:from-[#F26241] hover:to-[#E78723] hover:text-white transition-all"
                   >
                     <Instagram size={18} />
