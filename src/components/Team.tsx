@@ -113,10 +113,10 @@ export function Team() {
                   alt={member.name}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 md:group-hover:opacity-100 transition-opacity duration-300"></div>
                 
-                {/* Social Links - Appear on hover */}
-                <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex space-x-3 opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-4 group-hover:translate-y-0">
+                {/* Social Links - Always visible on mobile, appear on hover on desktop */}
+                <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex space-x-3 opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-all duration-300 transform translate-y-0 md:translate-y-4 md:group-hover:translate-y-0">
                   <a
                     href={member.social.linkedin}
                     target="_blank"
