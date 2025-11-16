@@ -13,8 +13,8 @@ export function Testimonials() {
       color: "bg-gradient-to-br from-[#F26241] to-[#E78723]",
     },
     {
-      name: "Michael Chen",
-      role: "Marketing Director, DesignHub",
+      name: "Fatomata Sillah",
+      role: "Marketing Director, GTHI",
       content: "Working with Konteh Graphics on our digital marketing campaign was a game-changer. They delivered stunning visuals and a strategy that significantly increased our engagement and conversions.",
       rating: 5,
       initials: "MC",

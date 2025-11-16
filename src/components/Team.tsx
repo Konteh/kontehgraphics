@@ -1,4 +1,4 @@
-import { Linkedin, Twitter, Instagram } from "lucide-react";
+import { Linkedin, Twitter, Instagram, } from "lucide-react";
 import { Card } from "./ui/card";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 
@@ -7,7 +7,7 @@ export function Team() {
     {
       name: "Ebrima Konteh",
       role: "Creative Director & Founder",
-      image: "images/danso-kg.jpg",
+      image: "images/webcontent/konteh_team.jpg",
       social: {
         linkedin: "https://www.linkedin.com/in/ebrima-konteh-89b47b1aa/",
         twitter: "https://x.com/konteh_gm?t=qnbhXB72wVgmIrb_etEZRw&s=09",
@@ -16,12 +16,12 @@ export function Team() {
     },
     {
       name: "Mamadi Fatty",
-      role: "OPerations and lead Designer",
+      role: "Operations and lead Designer",
       image: "images/webcontent/madiba_team.jpg",
       social: {
-        linkedin: "#",
-        twitter: "#",
-        instagram: "#",
+        linkedin: "https://www.linkedin.com/in/mamadi-fatty-5a302a270?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+        twitter: "https://x.com/madibaphati02?s=21",
+        instagram: "https://www.instagram.com/madiba_phati?igsh=MTBhb3c4cXZ1Z29qZA%3D%3D&utm_source=qr",
       },
     },
     {
@@ -29,9 +29,9 @@ export function Team() {
       role: "Lead Designer",
       image: "images/webcontent/mama_team.jpg",
       social: {
-        linkedin: "#",
+        linkedin: "https://www.linkedin.com/in/mama-marong-46950a396?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
         twitter: "#",
-        instagram: "#",
+        instagram: "https://www.instagram.com/marounzgal?igsh=eDJxZWM1dzYzdDBs&utm_source=qr",
       },
     },
     {
@@ -39,9 +39,9 @@ export function Team() {
       role: "Digital Marketing Manager",
       image: "images/webcontent/danso-kg.jpg",
       social: {
-        linkedin: "#",
+        linkedin: "https://www.linkedin.com/in/alieu-camara-3a26a12a9?utm_source=share_via&utm_content=profile&utm_medium=member_android",
         twitter: "#",
-        instagram: "#",
+        instagram: "https://www.instagram.com/alieu_04?igsh=MXc1dWd1ejZvZmNrZQ==",
       },
     },
     {
@@ -49,9 +49,9 @@ export function Team() {
       role: "Photography Director",
       image: "images/webcontent/isha_team.jpg",
       social: {
-        linkedin: "#",
+        linkedin: "https://www.linkedin.com/in/isha-bojang-a6528b307?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
         twitter: "#",
-        instagram: "#",
+        instagram: "https://www.instagram.com/_ishabojang?igsh=andxMHk5N2c5NmR6&utm_source=qr",
       },
     },
     {
@@ -61,7 +61,7 @@ export function Team() {
       social: {
         linkedin: "#",
         twitter: "#",
-        instagram: "#",
+        instagram: "https://www.instagram.com/kujabi7215?igsh=MTE0bWNuNW9sbXY1cw%3D%3D&utm_source=qr",
       },
     },
     {
@@ -125,14 +125,14 @@ export function Team() {
                   >
                     <Linkedin size={18} />
                   </a>
-                  <a
+                  {/* <a
                     href={member.social.twitter}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-2 bg-white rounded-lg hover:bg-gradient-to-r hover:from-[#F26241] hover:to-[#E78723] hover:text-white transition-all"
                   >
                     <Twitter size={18} />
-                  </a>
+                  </a> */}
                   <a
                     href={member.social.instagram}
                     target="_blank"

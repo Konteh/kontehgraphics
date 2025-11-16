@@ -9,12 +9,26 @@ export function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Company Info */}
           <div className="space-y-4">
-            <div className="flex items-center space-x-2">
+            {/* <div className="flex items-center space-x-2">
               <div className="w-10 h-10 bg-gradient-to-br from-[#F26241] to-[#E78723] rounded-lg flex items-center justify-center">
                 <span className="text-white">K</span>
               </div>
               <span className="text-white">Konteh Graphics</span>
-            </div>
+            </div> */}
+
+            <a href="#home" className="flex items-center space-x-2">
+            {/* <div className="w-10 h-10 bg-gradient-to-br from-[#F26241] to-[#E78723] rounded-lg flex items-center justify-center">
+              <span className="text-white">K</span>
+            </div> */}
+            {/* <span className="text-gray-900">Konteh Graphics</span> */}
+              <img 
+                src="/images/kglogo2.png" 
+                alt="Konteh Graphics Logo" 
+                style={{ height: "50px", width: "auto" }}
+              />
+          </a>
+
+
             <p className="text-gray-400">
               Transforming brands through creative excellence and innovative design solutions.
             </p>

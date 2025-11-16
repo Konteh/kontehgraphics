@@ -12,7 +12,7 @@ export function Hero() {
       alt: "Branding Design",
     },
     {
-      src: "/images/webcontent/kontehh.jpg",
+      src: "/images/webcontent/ummersite.jpg",
       alt: "Website Design",
     },
     {
