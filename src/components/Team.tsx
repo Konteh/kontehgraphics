@@ -75,8 +75,8 @@ export function Team() {
       },
     },
     {
-      name: "Isatu Mansaray",
-      role: "Graphic Design Specialist",
+      name: "Fatoumatta Danso",
+      role: "Communications Strategist",
       image: "images/danso-kg.jpg",
       social: {
         linkedin: "#",
