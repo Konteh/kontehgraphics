@@ -139,7 +139,7 @@ export function Contact() {
                   <div>
                     <h4 className="text-gray-900 mb-1">Call Us</h4>
                     <a href="tel:+15551234567" className="text-gray-600 hover:text-[#F26241] transition-colors">
-                      +220 334167
+                      +220 3451484
                     </a>
                     <br />
                     <a href="tel:+15559876543" className="text-gray-600 hover:text-[#F26241] transition-colors">
@@ -233,7 +233,7 @@ export function Contact() {
                 <Input
                   id="phone"
                   type="tel"
-                  placeholder="+220 3451445"
+                  placeholder="+220 3451484"
                   value={formData.phone}
                   onChange={handleChange}
                   className="border-gray-300 focus:border-[#F26241] focus:ring-[#F26241]"

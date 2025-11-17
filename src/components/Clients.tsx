@@ -15,6 +15,8 @@ export function Clients() {
     { name: "VisionaryLabs", logo: "images/utg.gif" },
     { name: "FutureWorks", logo: "images/greenup.png" },
     { name: "Nexus Group", logo: "images/mfw.png" },
+    { name: "Nexus Group", logo: "images/nesthed.jpeg" },
+    { name: "Nexus Group", logo: "images/umersitelogo.jpg" },
   ];
 
   // Duplicate clients for seamless infinite scroll

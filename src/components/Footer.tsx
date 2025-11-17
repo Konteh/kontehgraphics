@@ -33,16 +33,16 @@ export function Footer() {
               Transforming brands through creative excellence and innovative design solutions.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://www.facebook.com/kontehgraphics" className="text-gray-400 hover:text-white transition-colors">
                 <Facebook size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://x.com/kontehgraphics?t=BzcDGu-X8QV_h7TPjf5-dQ&s=09" className="text-gray-400 hover:text-white transition-colors">
                 <Twitter size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://www.instagram.com/kontehgraphics?igsh=Z2JpMnExempyYzdn" className="text-gray-400 hover:text-white transition-colors">
                 <Instagram size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://www.linkedin.com/company/konteh-graphics/" className="text-gray-400 hover:text-white transition-colors">
                 <Linkedin size={20} />
               </a>
             </div>
@@ -83,7 +83,7 @@ export function Footer() {
               </li>
               <li className="flex items-start space-x-3">
                 <Phone className="w-5 h-5 text-orange-400 mt-1 flex-shrink-0" />
-                <span className="text-gray-400">+220 3344167</span>
+                <span className="text-gray-400">+220 3451484</span>
               </li>
               <li className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-orange-400 mt-1 flex-shrink-0" />

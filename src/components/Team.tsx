@@ -16,7 +16,7 @@ export function Team() {
     },
     {
       name: "Mamadi Fatty",
-      role: "Operations and lead Designer",
+      role: "Brand Strategist / Operations Manager",
       image: "images/webcontent/madiba_team.jpg",
       social: {
         linkedin: "https://www.linkedin.com/in/mamadi-fatty-5a302a270?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
@@ -26,7 +26,7 @@ export function Team() {
     },
     {
       name: "Mama Marong",
-      role: "Lead Designer",
+      role: "Visual Arts Lead",
       image: "images/webcontent/mama_team.jpg",
       social: {
         linkedin: "https://www.linkedin.com/in/mama-marong-46950a396?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
@@ -36,7 +36,7 @@ export function Team() {
     },
     {
       name: "Alieu Camara",
-      role: "Digital Marketing Manager",
+      role: "Business Development Lead",
       image: "images/webcontent/danso-kg.jpg",
       social: {
         linkedin: "https://www.linkedin.com/in/alieu-camara-3a26a12a9?utm_source=share_via&utm_content=profile&utm_medium=member_android",
@@ -46,7 +46,7 @@ export function Team() {
     },
     {
       name: "Isha Bojang",
-      role: "Photography Director",
+      role: "Social Media Manager",
       image: "images/webcontent/isha_team.jpg",
       social: {
         linkedin: "https://www.linkedin.com/in/isha-bojang-a6528b307?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
@@ -56,7 +56,7 @@ export function Team() {
     },
     {
       name: "Awa Kujabi",
-      role: "Video Production Lead",
+      role: "Photogragher",
       image: "images/webcontent/awa_team.jpg",
       social: {
         linkedin: "#",
@@ -65,7 +65,7 @@ export function Team() {
       },
     },
     {
-      name: "Sorie Turay",
+      name: "Amadou Bailo Bah",
       role: "Senior Web Developer",
       image: "images/danso-kg.jpg",
       social: {

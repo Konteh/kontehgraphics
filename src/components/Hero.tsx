@@ -12,7 +12,7 @@ export function Hero() {
       alt: "Branding Design",
     },
     {
-      src: "/images/webcontent/ummersite.jpg",
+      src: "/images/webcontent/kaddy2.jpg",
       alt: "Website Design",
     },
     {
@@ -27,6 +27,11 @@ export function Hero() {
      src: "https://images.pexels.com/photos/34708561/pexels-photo-34708561.jpeg",
       alt: "photography",
     },
+    {
+     src: "images/webcontent/chichi-kg.jpg",
+      alt: "photography",
+    },
+   
   ];
 
   // External URL for Brand Identity — replace with the real external link you want to use

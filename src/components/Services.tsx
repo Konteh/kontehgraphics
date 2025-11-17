@@ -8,7 +8,7 @@ export function Services() {
       icon: <Palette className="w-8 h-8" />,
       title: "Branding",
       description: "Create a memorable brand identity that resonates with your audience and stands out in the market.",
-      image: "https://images.unsplash.com/photo-1702047054352-cf264d3b1a9c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxicmFuZGluZyUyMGRlc2lnbiUyMHdvcmtzcGFjZXxlbnwxfHx8fDE3NjI4NDQwNzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      image: "images/webcontent/ummersite.jpg",
       color: "from-[#F26241] to-[#E78723]",
     },
     {
@@ -36,14 +36,14 @@ export function Services() {
       icon: <Globe className="w-8 h-8" />,
       title: "Web Development",
       description: "Build responsive, user-friendly websites that deliver seamless experiences across all devices.",
-      image: "https://images.unsplash.com/photo-1557324232-b8917d3c3dcb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXZlbG9wbWVudCUyMGNvZGluZ3xlbnwxfHx8fDE3NjI3NDA1MTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      image: "images/webcontent/tendabacamp.jpg",
       color: "from-indigo-500 to-purple-500",
     },
     {
       icon: <Layers className="w-8 h-8" />,
       title: "Graphic Design",
       description: "Design eye-catching graphics that communicate your message and elevate your brand presence.",
-      image: "https://images.unsplash.com/photo-1609921212029-bb5a28e60960?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxncmFwaGljJTIwZGVzaWduJTIwd29ya3NwYWNlfGVufDF8fHx8MTc2Mjc0OTgwN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      image: "images/webcontent/modempizza.jpg",
       color: "from-pink-500 to-rose-500",
     },
   ];

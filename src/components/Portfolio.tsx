@@ -17,7 +17,7 @@ export function Portfolio() {
       icon: "linkedin",
     },
     {
-      title: "Product Photography Campaign",
+      title: "WallyFitness Cardio Challenge Tour 3.0",
       category: "Photography",
       image: "images/webcontent/wally.jpg",
       link: "https://www.instagram.com/kontehgraphics?igsh=Z2JpMnExempyYzdn",
@@ -31,11 +31,11 @@ export function Portfolio() {
       icon: "external",
     },
     {
-      title: "Modern UI/UX Design",
+      title: "Ui/Ux design for NCCRM Data Portal",
       category: "Design",
-      image: "images/webcontent/ummer.jpg",
-      link: "#",
-      icon: "linkedin",
+      image: "images/webcontent/nccrm.jpg",
+      link: "https://www.figma.com/proto/9BNIhWwJUoShZ0L6KwtXDB/NCCRM-PORTAL---DASHBOARD-UI?node-id=4-24&t=PZro7USpJnO4sXO2-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A23",
+      icon: "external",
     },
     {
       title: "Gomindz Official Website",
@@ -52,7 +52,7 @@ export function Portfolio() {
       icon: "instagram",
     },
     {
-      title: "Fashion Photography Series",
+      title: "Dunas Boutique Hotel Photography",
       category: "Photography",
       image: "https://images.pexels.com/photos/34708696/pexels-photo-34708696.jpeg",
       link: "https://www.instagram.com/kontehgraphics?igsh=Z2JpMnExempyYzdn",
@@ -80,14 +80,14 @@ export function Portfolio() {
       icon: "external",
     },
     {
-      title: "Logo Design Collection",
+      title: "Logo Design for AFRIPOWER ZONE",
       category: "Branding",
-      image: "https://images.unsplash.com/photo-1548094990-c16ca90f1f0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxicmFuZGluZyUyMGRlc2lnbnxlbnwxfHx8fDE3NjI5MzI2OTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      image: "images/webcontent/powerzone.jpg",
       link: "#",
       icon: "linkedin",
     },
     {
-      title: "Event Photography",
+      title: "Sunset Photography at Tendaba Camp",
       category: "Photography",
       image: "images/tendaba.jpg",
       link: "https://www.instagram.com/kontehgraphics?igsh=Z2JpMnExempyYzdn",
