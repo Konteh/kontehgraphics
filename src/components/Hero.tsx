@@ -35,7 +35,7 @@ export function Hero() {
   ];
 
   // External URL for Brand Identity — replace with the real external link you want to use
-  const brandIdentityUrl = "images/webcontent/brand_identity_kg.pdf";
+  const brandIdentityUrl = "images/brand-guideline-kontehgraphics.pdf";
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -159,7 +159,7 @@ export function Hero() {
               </div>
               <div>
                 <div className="text-3xl text-gray-900">5+</div>
-                <div className="text-gray-600">Happy Clients</div>
+                <div className="text-gray-600">Happy Partners</div>
               </div>
               <div>
                 <div className="text-3xl text-gray-900">3+</div>
