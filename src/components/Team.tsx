@@ -6,7 +6,7 @@ export function Team() {
   const teamMembers = [
     {
       name: "Ebrima Konteh",
-      role: "Creative Director & Founder",
+      role: "Creative Director & Co-Founder",
       image: "images/webcontent/konteh_team.jpg",
       social: {
         linkedin: "https://www.linkedin.com/in/ebrima-konteh-89b47b1aa/",
@@ -26,7 +26,7 @@ export function Team() {
     },
     {
       name: "Mama Marong",
-      role: "Visual Arts Lead",
+      role: "Video Production Lead",
       image: "images/webcontent/mama_team.jpg",
       social: {
         linkedin: "https://www.linkedin.com/in/mama-marong-46950a396?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
@@ -59,7 +59,7 @@ export function Team() {
       role: "Photogragher",
       image: "images/webcontent/awa_team.jpg",
       social: {
-        linkedin: "#",
+        linkedin: "https://www.linkedin.com/in/awa-kujabi-a997b5399?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
         twitter: "#",
         instagram: "https://www.instagram.com/kujabi7215?igsh=MTE0bWNuNW9sbXY1cw%3D%3D&utm_source=qr",
       },
@@ -67,7 +67,7 @@ export function Team() {
     {
       name: "Amadou Bailo Bah",
       role: "Senior Web Developer",
-      image: "images/danso-kg.jpg",
+      image: "images/webcontent/bailo_team.jpg",
       social: {
         linkedin: "#",
         twitter: "#",

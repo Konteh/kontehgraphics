@@ -22,8 +22,8 @@ export function Testimonials() {
     },
     {
       name: "Awa Dacosta",
-      role: "Director, Fantanka",
-      content: "The photography and videography services are top-notch! Konteh Graphics captured our products beautifully and helped us create content that truly resonates with our audience. Highly recommend!",
+      role: "Programs & Outreach Coordinator, Fantanka",
+      content: "The photography and videography services are top-notch! Konteh Graphics captured our contents beautifully and helped us create content that truly resonates with our audience. Highly recommend!",
       rating: 5,
       initials: "AD",
       color: "bg-gradient-to-br from-[#F26241] to-[#E78723]",

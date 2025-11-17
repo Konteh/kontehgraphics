@@ -13,8 +13,8 @@ export function Portfolio() {
       title: "modempay Brand Identity",
       category: "Branding",
       image: "images/brandingModem.jpg",
-      link: "#",
-      icon: "linkedin",
+      link: "https://www.instagram.com/modempay/",
+      icon: "instagram",
     },
     {
       title: "WallyFitness Cardio Challenge Tour 3.0",
@@ -27,7 +27,7 @@ export function Portfolio() {
       title: "Video production for High Level Workshop on SDG 6 Capacity Development",
       category: "Videography",
       image: "images/sdg.jpeg",
-      link: "#",
+      link: "https://drive.google.com/file/d/13ajb_L5lRbN-hvJdqieAzUJXq448domR/view?usp=sharing",
       icon: "external",
     },
     {
@@ -48,7 +48,7 @@ export function Portfolio() {
       title: "Branding for LSA WEEK 5.0",
       category: "Branding",
       image: "images/lsabrand.png",
-      link: "#",
+      link: "https://www.instagram.com/p/DIvfeXrMDSy/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
       icon: "instagram",
     },
     {
@@ -62,14 +62,14 @@ export function Portfolio() {
       title: "Data Analytics traning conducted by Gomindz for MOPS",
       category: "Videography",
       image: "images/mof.jpeg",
-      link: "#",
+      link: "https://www.linkedin.com/posts/gomindz_dataanalytics-powerbi-ministry-activity-7318709870852009985-nGve?utm_source=share&utm_medium=member_android&rcm=ACoAADDV1jcBKtmVzo7GuD08QRwRhD4YLaU_PFM",
       icon: "external",
     },
     {
-      title: "Social Media Graphics",
+      title: "Modempay Soial Media Design",
       category: "Design",
       image: "images/webcontent/modem.jpg",
-      link: "#",
+      link: "https://www.instagram.com/kontehgraphics?igsh=Z2JpMnExempyYzdn",
       icon: "linkedin",
     },
     {
@@ -83,8 +83,8 @@ export function Portfolio() {
       title: "Logo Design for AFRIPOWER ZONE",
       category: "Branding",
       image: "images/webcontent/powerzone.jpg",
-      link: "#",
-      icon: "linkedin",
+      link: "https://www.instagram.com/kontehgraphics/",
+      icon: "instagram",
     },
     {
       title: "Sunset Photography at Tendaba Camp",
