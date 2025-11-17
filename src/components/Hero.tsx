@@ -118,8 +118,12 @@ export function Hero() {
             </h1>
             
             <p className="text-xl text-gray-600 max-w-xl">
-              We're Konteh Graphics, a full-service creative agency specializing in branding, 
-              digital marketing, and stunning visual content that elevates your business.
+              {/* We're Konteh Graphics, a full-service creative agency specializing in branding, 
+              digital marketing, and stunning visual content that elevates your business. */}
+
+              Konteh Graphics is a creative agency passionate about visual storytelling. we help businesses & organizations
+              improve their digital presence by crafting unique brand identities and connecting them to 
+              right audience.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
