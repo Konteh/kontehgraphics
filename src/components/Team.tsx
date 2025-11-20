@@ -16,7 +16,7 @@ export function Team() {
     },
     {
       name: "Mamadi Fatty",
-      role: "Brand Strategist / Operations Manager",
+      role: "Senior Visual Designer",
       image: "images/webcontent/madiba_team.jpg",
       social: {
         linkedin: "https://www.linkedin.com/in/mamadi-fatty-5a302a270?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
@@ -37,7 +37,7 @@ export function Team() {
     {
       name: "Alieu Camara",
       role: "Business Development Lead",
-      image: "images/webcontent/danso-kg.jpg",
+      image: "images/webcontent/alieu_team.jpg",
       social: {
         linkedin: "https://www.linkedin.com/in/alieu-camara-3a26a12a9?utm_source=share_via&utm_content=profile&utm_medium=member_android",
         twitter: "#",
