@@ -69,9 +69,9 @@ export function Team() {
       role: "Senior Web Developer",
       image: "images/webcontent/bailo_team.jpg",
       social: {
-        linkedin: "#",
+        linkedin: "https://www.linkedin.com/in/fatoumatta-danso-785317287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
         twitter: "#",
-        instagram: "#",
+        instagram: "https://www.instagram.com/kontehgraphics?igsh=Z2JpMnExempyYzdn",
       },
     },
     {
