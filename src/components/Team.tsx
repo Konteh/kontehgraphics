@@ -56,7 +56,7 @@ export function Team() {
     },
     {
       name: "Awa Kujabi",
-      role: "Photogragher",
+      role: "Photographer",
       image: "images/webcontent/awa_team.jpg",
       social: {
         linkedin: "https://www.linkedin.com/in/awa-kujabi-a997b5399?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
