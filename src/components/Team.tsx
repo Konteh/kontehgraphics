@@ -44,6 +44,7 @@ export function Team() {
         instagram: "https://www.instagram.com/alieu_04?igsh=MXc1dWd1ejZvZmNrZQ==",
       },
     },
+
     {
       name: "Isha Bojang",
       role: "Social Media Manager",

@@ -35,7 +35,7 @@ export function Hero() {
   ];
 
   // External URL for Brand Identity — replace with the real external link you want to use
-  const brandIdentityUrl = "images/brand-guideline-kontehgraphics.pdf";
+  const brandIdentityUrl = "images/brand-guidelines-kontehgraphics.pdf";
 
   useEffect(() => {
     const interval = setInterval(() => {
