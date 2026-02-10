@@ -1,6 +1,7 @@
 import { Linkedin, Twitter, Instagram, } from "lucide-react";
 import { Card } from "./ui/card";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
+import { trackEvent } from "../ga";
 
 export function Team() {
   const teamMembers = [
@@ -123,6 +124,7 @@ export function Team() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-2 bg-white rounded-lg hover:bg-gradient-to-r hover:from-[#F26241] hover:to-[#E78723] hover:text-white transition-all"
+                    onClick={() => trackEvent("team_social_click", { name: member.name, network: "linkedin" })}
                   >
                     <Linkedin size={18} />
                   </a>
@@ -139,6 +141,7 @@ export function Team() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-2 bg-white rounded-lg hover:bg-gradient-to-r hover:from-[#F26241] hover:to-[#E78723] hover:text-white transition-all"
+                    onClick={() => trackEvent("team_social_click", { name: member.name, network: "instagram" })}
                   >
                     <Instagram size={18} />
                   </a>

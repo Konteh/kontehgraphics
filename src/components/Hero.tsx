@@ -2,6 +2,7 @@ import { ArrowRight, Sparkles } from "lucide-react";
 import { Button } from "./ui/button";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { useEffect, useState } from "react";
+import { trackEvent } from "../ga";
 
 export function Hero() {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -131,6 +132,7 @@ export function Hero() {
                 onClick={() => {
                   // Open the brand identity page in a new tab. Change `brandIdentityUrl` above as needed.
                   window.open(brandIdentityUrl, '_blank', 'noopener,noreferrer');
+                  trackEvent("open_brand_guidelines");
                 }}
                 className="bg-gradient-to-r from-[#F26241] to-[#E78723] text-white px-8 py-6 cursor-pointer"
               >
@@ -142,6 +144,7 @@ export function Hero() {
                   const portfolioSection = document.getElementById('portfolio');
                   if (portfolioSection) {
                     portfolioSection.scrollIntoView({ behavior: 'smooth' });
+                    trackEvent("view_our_work_click");
                   }
                 }}
                 variant="outline" 

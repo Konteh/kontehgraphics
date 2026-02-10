@@ -1,6 +1,7 @@
 import { Palette, TrendingUp, Camera, Video, Globe, Layers } from "lucide-react";
 import { Card } from "./ui/card";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
+import { trackEvent } from "../ga";
 
 export function Services() {
   const services = [
@@ -67,6 +68,7 @@ export function Services() {
             <Card
               key={index}
               className="group hover:shadow-xl transition-all duration-300 overflow-hidden border-0"
+              onClick={() => trackEvent("service_click", { title: service.title })}
             >
               <div className="relative h-48 overflow-hidden">
                 <ImageWithFallback

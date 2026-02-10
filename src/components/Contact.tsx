@@ -5,6 +5,7 @@ import { Textarea } from "./ui/textarea";
 import { Button } from "./ui/button";
 import { Label } from "./ui/label";
 import { useState } from "react";
+import { trackEvent } from "../ga";
 
 export function Contact() {
   const [formData, setFormData] = useState({
@@ -76,6 +77,9 @@ export function Contact() {
           subject: "",
           message: "",
         });
+        try {
+          trackEvent("contact_form_submit", { status: "success", subject: formData.subject || "" });
+        } catch (e) {}
       } else {
         throw new Error("Failed to submit form");
       }
@@ -83,6 +87,9 @@ export function Contact() {
       console.error("Failed to send message:", error);
       setSubmitStatus("error");
       setStatusMessage("Failed to send your message. Please try again or contact us directly.");
+      try {
+        trackEvent("contact_form_submit", { status: "error", subject: formData.subject || "" });
+      } catch (e) {}
     } finally {
       setIsSubmitting(false);
     }

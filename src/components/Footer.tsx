@@ -1,4 +1,5 @@
 import { Mail, Phone, MapPin, Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
+import { trackEvent } from "../ga";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -33,16 +34,16 @@ export function Footer() {
               Transforming brands through creative excellence and innovative design solutions.
             </p>
             <div className="flex space-x-4">
-              <a href="https://www.facebook.com/kontehgraphics" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://www.facebook.com/kontehgraphics" className="text-gray-400 hover:text-white transition-colors" onClick={() => trackEvent("footer_social_click", { network: "facebook" })}>
                 <Facebook size={20} />
               </a>
-              <a href="https://x.com/kontehgraphics?t=BzcDGu-X8QV_h7TPjf5-dQ&s=09" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://x.com/kontehgraphics?t=BzcDGu-X8QV_h7TPjf5-dQ&s=09" className="text-gray-400 hover:text-white transition-colors" onClick={() => trackEvent("footer_social_click", { network: "twitter" })}>
                 <Twitter size={20} />
               </a>
-              <a href="https://www.instagram.com/kontehgraphics?igsh=Z2JpMnExempyYzdn" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://www.instagram.com/kontehgraphics?igsh=Z2JpMnExempyYzdn" className="text-gray-400 hover:text-white transition-colors" onClick={() => trackEvent("footer_social_click", { network: "instagram" })}>
                 <Instagram size={20} />
               </a>
-              <a href="https://www.linkedin.com/company/konteh-graphics/" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://www.linkedin.com/company/konteh-graphics/" className="text-gray-400 hover:text-white transition-colors" onClick={() => trackEvent("footer_social_click", { network: "linkedin" })}>
                 <Linkedin size={20} />
               </a>
             </div>
@@ -52,12 +53,12 @@ export function Footer() {
           <div>
             <h3 className="text-white mb-4 font-aref">Services</h3>
             <ul className="space-y-2">
-              <li><a href="#services" className="text-gray-400 hover:text-white transition-colors">Branding</a></li>
-              <li><a href="#services" className="text-gray-400 hover:text-white transition-colors">Digital Marketing</a></li>
-              <li><a href="#services" className="text-gray-400 hover:text-white transition-colors">Photography</a></li>
-              <li><a href="#services" className="text-gray-400 hover:text-white transition-colors">Videography</a></li>
-              <li><a href="#services" className="text-gray-400 hover:text-white transition-colors">Web Development</a></li>
-              <li><a href="#services" className="text-gray-400 hover:text-white transition-colors">Graphic Design</a></li>
+              <li><a href="#services" className="text-gray-400 hover:text-white transition-colors" onClick={() => trackEvent("footer_quicklink_click", { label: "Branding" })}>Branding</a></li>
+              <li><a href="#services" className="text-gray-400 hover:text-white transition-colors" onClick={() => trackEvent("footer_quicklink_click", { label: "Digital Marketing" })}>Digital Marketing</a></li>
+              <li><a href="#services" className="text-gray-400 hover:text-white transition-colors" onClick={() => trackEvent("footer_quicklink_click", { label: "Photography" })}>Photography</a></li>
+              <li><a href="#services" className="text-gray-400 hover:text-white transition-colors" onClick={() => trackEvent("footer_quicklink_click", { label: "Videography" })}>Videography</a></li>
+              <li><a href="#services" className="text-gray-400 hover:text-white transition-colors" onClick={() => trackEvent("footer_quicklink_click", { label: "Web Development" })}>Web Development</a></li>
+              <li><a href="#services" className="text-gray-400 hover:text-white transition-colors" onClick={() => trackEvent("footer_quicklink_click", { label: "Graphic Design" })}>Graphic Design</a></li>
             </ul>
           </div>
 
@@ -65,11 +66,11 @@ export function Footer() {
           <div>
             <h3 className="text-white mb-4 font-aref">Quick Links</h3>
             <ul className="space-y-2">
-              <li><a href="#home" className="text-gray-400 hover:text-white transition-colors">Home</a></li>
-              <li><a href="#services" className="text-gray-400 hover:text-white transition-colors">Services</a></li>
-              <li><a href="#clients" className="text-gray-400 hover:text-white transition-colors">Clients</a></li>
-              <li><a href="#testimonials" className="text-gray-400 hover:text-white transition-colors">Testimonials</a></li>
-              <li><a href="#contact" className="text-gray-400 hover:text-white transition-colors">Contact</a></li>
+              <li><a href="#home" className="text-gray-400 hover:text-white transition-colors" onClick={() => trackEvent("footer_quicklink_click", { label: "Home" })}>Home</a></li>
+              <li><a href="#services" className="text-gray-400 hover:text-white transition-colors" onClick={() => trackEvent("footer_quicklink_click", { label: "Services" })}>Services</a></li>
+              <li><a href="#clients" className="text-gray-400 hover:text-white transition-colors" onClick={() => trackEvent("footer_quicklink_click", { label: "Clients" })}>Clients</a></li>
+              <li><a href="#testimonials" className="text-gray-400 hover:text-white transition-colors" onClick={() => trackEvent("footer_quicklink_click", { label: "Testimonials" })}>Testimonials</a></li>
+              <li><a href="#contact" className="text-gray-400 hover:text-white transition-colors" onClick={() => trackEvent("footer_quicklink_click", { label: "Contact" })}>Contact</a></li>
             </ul>
           </div>
 

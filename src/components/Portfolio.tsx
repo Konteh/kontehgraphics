@@ -2,6 +2,7 @@ import { useState } from "react";
 import { ExternalLink, Instagram, Linkedin } from "lucide-react";
 import { Card } from "./ui/card";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
+import { trackEvent } from "../ga";
 
 type Category = "All" | "Branding" | "Photography" | "Videography" | "Design" | "Web";
 
@@ -66,11 +67,32 @@ export function Portfolio() {
       icon: "external",
     },
     {
+      title: "Data Analytics traning conducted by Gomindz for MOPS",
+      category: "Videography",
+      image: "images/mof.jpeg",
+      link: "https://www.linkedin.com/posts/gomindz_dataanalytics-powerbi-ministry-activity-7318709870852009985-nGve?utm_source=share&utm_medium=member_android&rcm=ACoAADDV1jcBKtmVzo7GuD08QRwRhD4YLaU_PFM",
+      icon: "external",
+    },
+    {
       title: "Modempay Soial Media Design",
       category: "Design",
       image: "images/webcontent/modem.jpg",
       link: "https://www.instagram.com/kontehgraphics?igsh=Z2JpMnExempyYzdn",
       icon: "linkedin",
+    },
+    {
+      title: "Modempay Soial Media Design",
+      category: "Design",
+      image: "images/webcontent/modem.jpg",
+      link: "https://www.instagram.com/kontehgraphics?igsh=Z2JpMnExempyYzdn",
+      icon: "linkedin",
+    },
+    {
+      title: "Gomindz Academy Website",
+      category: "Web",
+      image: "images/webcontent/acaemygomindz.jpg",
+      link: "https://academy.gomindz.gm/",
+      icon: "external",
     },
     {
       title: "Gomindz Academy Website",
@@ -87,6 +109,20 @@ export function Portfolio() {
       icon: "instagram",
     },
     {
+      title: "Logo Design for AFRIPOWER ZONE",
+      category: "Branding",
+      image: "images/webcontent/powerzone.jpg",
+      link: "https://www.instagram.com/kontehgraphics/",
+      icon: "instagram",
+    },
+    {
+      title: "Sunset Photography at Tendaba Camp",
+      category: "Photography",
+      image: "images/tendaba.jpg",
+      link: "https://www.instagram.com/kontehgraphics?igsh=Z2JpMnExempyYzdn",
+      icon: "instagram",
+    },
+    {
       title: "Sunset Photography at Tendaba Camp",
       category: "Photography",
       image: "images/tendaba.jpg",
@@ -97,9 +133,17 @@ export function Portfolio() {
 
   const categories: Category[] = ["All", "Branding", "Photography", "Videography", "Design", "Web"];
 
-  const filteredProjects = activeCategory === "All" 
-    ? projects 
-    : projects.filter(project => project.category === activeCategory);
+  const filteredProjects = (() => {
+    if (activeCategory === "All") {
+      const visibleCats: Category[] = ["Branding", "Photography", "Videography", "Design", "Web"];
+      return visibleCats.reduce((acc: any[], cat) => {
+        const items = projects.filter(p => p.category === cat).slice(0, 2);
+        return acc.concat(items);
+      }, []);
+    }
+
+    return projects.filter(project => project.category === activeCategory);
+  })();
 
   const getIcon = (iconType: string) => {
     switch (iconType) {
@@ -130,7 +174,10 @@ export function Portfolio() {
           {categories.map((category) => (
             <button
               key={category}
-              onClick={() => setActiveCategory(category)}
+              onClick={() => {
+                setActiveCategory(category);
+                trackEvent("portfolio_filter", { category });
+              }}
               className={`px-6 py-3 rounded-lg transition-all duration-300 ${
                 activeCategory === category
                   ? "bg-gradient-to-r from-[#F26241] to-[#E78723] text-white shadow-lg"
@@ -165,6 +212,7 @@ export function Portfolio() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-3 bg-gradient-to-r from-[#F26241] to-[#E78723] text-white rounded-full hover:scale-110 transition-transform"
+                    onClick={() => trackEvent("portfolio_project_click", { title: project.title })}
                   >
                     {getIcon(project.icon)}
                   </a>

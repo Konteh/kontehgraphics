@@ -1,6 +1,7 @@
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Button } from "./ui/button";
+import { trackEvent } from "../ga";
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -38,12 +39,13 @@ export function Header() {
                 key={item.label}
                 href={item.href}
                 className="text-gray-600 hover:text-[#F26241] transition-colors"
+                onClick={() => trackEvent("nav_click", { label: item.label })}
               >
                 {item.label}
               </a>
             ))}
             <Button className="bg-gradient-to-r from-[#F26241] to-[#E78723] text-white">
-              Get Started
+              <span onClick={() => trackEvent("get_started_click")}>Get Started</span>
             </Button>
           </nav>
 
@@ -64,13 +66,16 @@ export function Header() {
                 key={item.label}
                 href={item.href}
                 className="text-gray-600 hover:text-[#F26241] transition-colors"
-                onClick={() => setIsMenuOpen(false)}
+                onClick={() => {
+                  setIsMenuOpen(false);
+                  trackEvent("nav_click", { label: item.label });
+                }}
               >
                 {item.label}
               </a>
             ))}
             <Button className="bg-gradient-to-r from-[#F26241] to-[#E78723] text-white w-full">
-              Get Started
+              <span onClick={() => trackEvent("get_started_click")}>Get Started</span>
             </Button>
           </nav>
         )}

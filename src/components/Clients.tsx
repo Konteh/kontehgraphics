@@ -1,4 +1,5 @@
 import { ImageWithFallback } from "./figma/ImageWithFallback";
+import { trackEvent } from "../ga";
 
 export function Clients() {
   // Client logos
@@ -47,6 +48,7 @@ export function Clients() {
                 <div
                   key={index}
                   className="flex items-center justify-center w-48 h-24 px-6 py-4 rounded-xl border border-gray-200 bg-white hover:border-orange-300 hover:shadow-lg transition-all duration-300 group flex-shrink-0"
+                  onClick={() => trackEvent("client_logo_click", { name: client.name })}
                 >
                   <ImageWithFallback
                     src={client.logo}
