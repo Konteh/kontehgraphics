@@ -7,6 +7,7 @@ export function Clients() {
     { name: "TechCorp", logo: "images/modemlogo.png"},
     { name: "DesignHub", logo: "images/gomindz.png" },
     { name: "MediaFlow", logo: "images/gomindzacademy.png" },
+    { name: "MediaFlow", logo: "images/efs.png" },
     { name: "BrandWorks", logo: "images/fantanka.png" },
     { name: "CreativeMinds", logo: "images/gthi.png" },
     { name: "DigitalEdge", logo: "images/infocheck.jpg" },

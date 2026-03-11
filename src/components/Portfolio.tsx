@@ -39,10 +39,10 @@ export function Portfolio() {
       icon: "external",
     },
     {
-      title: "Gomindz Official Website",
+      title: "Green Energy Solutions Gambia Website",
       category: "Web",
-      image: "images/webcontent/gomindweb.jpg",
-      link: "https://gomindz.gm",
+      image: "images/webcontent/ens.jpg",
+      link: "https://greenenergysolutionsgambia.com/",
       icon: "external",
     },
     {
@@ -67,9 +67,9 @@ export function Portfolio() {
       icon: "external",
     },
     {
-      title: "Data Analytics traning conducted by Gomindz for MOPS",
+      title: "Solace Foundation free breast cancer screening and awareness campaign video highlight.",
       category: "Videography",
-      image: "images/mof.jpeg",
+      image: "images/webcontent/solace.jpeg",
       link: "https://www.linkedin.com/posts/gomindz_dataanalytics-powerbi-ministry-activity-7318709870852009985-nGve?utm_source=share&utm_medium=member_android&rcm=ACoAADDV1jcBKtmVzo7GuD08QRwRhD4YLaU_PFM",
       icon: "external",
     },
@@ -81,9 +81,9 @@ export function Portfolio() {
       icon: "linkedin",
     },
     {
-      title: "Modempay Soial Media Design",
+      title: "Easy Financial Service Ramadan Poster Design",
       category: "Design",
-      image: "images/webcontent/modem.jpg",
+      image: "images/easyflyer.jpg",
       link: "https://www.instagram.com/kontehgraphics?igsh=Z2JpMnExempyYzdn",
       icon: "linkedin",
     },
@@ -95,10 +95,10 @@ export function Portfolio() {
       icon: "external",
     },
     {
-      title: "Gomindz Academy Website",
+      title: "Nesthet Clinical Services Website",
       category: "Web",
-      image: "images/webcontent/acaemygomindz.jpg",
-      link: "https://academy.gomindz.gm/",
+      image: "images/webcontent/nesthet.jpg",
+      link: "https://nesthetclinicalservices.com/",
       icon: "external",
     },
     {
@@ -109,11 +109,18 @@ export function Portfolio() {
       icon: "instagram",
     },
     {
+      title: "Branding for Gomindz Academy",
+      category: "Branding",
+      image: "images/webcontent/gomindz-academy.jpeg",
+      link: "https://www.instagram.com/gomindzacademy/",
+      icon: "instagram",
+    },
+    {
       title: "Logo Design for AFRIPOWER ZONE",
       category: "Branding",
-      image: "images/webcontent/powerzone.jpg",
-      link: "https://www.instagram.com/kontehgraphics/",
-      icon: "instagram",
+      image: "images/webcontent/green-energy.jpeg",
+      link: "https://www.greenenergysolutionsgambia.com/",
+      icon: "external",
     },
     {
       title: "Sunset Photography at Tendaba Camp",
