@@ -21,6 +21,14 @@ export function Hero() {
       alt: "Graphic Design Portfolio",
     },
     {
+      src: "/images/webcontent/kgladies.jpeg",
+      alt: "Graphic Design Portfolio",
+    },
+    {
+      src: "/images/webcontent/anitia1.jpg",
+      alt: "Graphic Design Portfolio",
+    },
+    {
      src: "https://images.pexels.com/photos/34708668/pexels-photo-34708668.jpeg",
       alt: "Marketing Campaign",
     },

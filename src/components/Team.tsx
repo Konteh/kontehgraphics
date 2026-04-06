@@ -30,7 +30,7 @@ export function Team() {
       role: "Video Production Lead",
       image: "images/webcontent/mama_team.jpg",
       social: {
-        linkedin: "https://www.linkedin.com/in/mama-marong-46950a396?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        linkedin: "https://www.linkedin.com/in/mama-marong-9377473aa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
         twitter: "#",
         instagram: "https://www.instagram.com/marounzgal?igsh=eDJxZWM1dzYzdDBs&utm_source=qr",
       },

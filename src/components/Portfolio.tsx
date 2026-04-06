@@ -60,6 +60,13 @@ export function Portfolio() {
       icon: "instagram",
     },
     {
+      title: "Lifestyle Photography in Dakar, Senegal",
+      category: "Photography",
+      image: "images/webcontent/dakar2.jpeg",
+      link: "https://www.instagram.com/kontehgraphics?igsh=Z2JpMnExempyYzdn",
+      icon: "instagram",
+    },
+    {
       title: "Data Analytics traning conducted by Gomindz for MOPS",
       category: "Videography",
       image: "images/mof.jpeg",
@@ -116,7 +123,7 @@ export function Portfolio() {
       icon: "instagram",
     },
     {
-      title: "Logo Design for AFRIPOWER ZONE",
+      title: "Brand Identity for Green Energy Solutions Gambia",
       category: "Branding",
       image: "images/webcontent/green-energy.jpeg",
       link: "https://www.greenenergysolutionsgambia.com/",
